@@ -1,0 +1,9 @@
+{
+  "name": "web-gis-690",
+  "version": "1.0.0",
+  "description": "Presentation Website for JS Tools for Web GIS Projecta - SFSU: Spring 2016 ",
+  "main": "js/site.js",
+  "scripts": {},
+  "author": "thirsty-bear (bill@milemarker3.org)",
+  "license": "ISC"
+}
