@@ -1,0 +1,83 @@
+/* 
+ **********************
+ style.css: web-gis-690 presentation styles
+ **********************
+ */ 
+
+/* tag-based styles - minimize these if poss */
+
+body {
+	height: 10;
+}
+
+h1 {
+  margin: 10px auto;
+}
+
+table {
+  margin-bottom: 25px;     
+}
+
+p {	
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0 10px;
+}	
+
+li {
+  margin-bottom: 8px;	
+}
+
+hr {
+  margin: 10px 0;
+  width: 75%;
+}
+
+/* float layout styles */
+
+.container {
+  margin-bottom: 25px;
+  width: 1200px; // fixed -- gotta go relative for bootstrap cols
+ }
+
+.center {
+  text-align: center;
+ }
+
+.my-col-8 {
+	float: left;
+	width: 35%;
+}
+
+.my-col-12 {
+  float: left; 
+  width: 65%;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 20px;
+}
+.attrib {
+	font-family: sans-serif;
+}
+
+.screenshot {
+  border: 1px solid gray;	
+  width: 400px; 
+}
+
+.gradient {
+  background-image:
+    linear-gradient(
+      blue,
+      #ffffff 4%
+    );
+}
+
+/* util styles */
+.clear {
+  clear: both;
+ }
+
+ /* eof */
