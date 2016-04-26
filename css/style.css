@@ -7,11 +7,11 @@
 /* tag-based styles - minimize these if poss */
 
 body {
-	height: 10;
+	height: 100%;
 }
 
 h1 {
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
 table {
@@ -56,14 +56,39 @@ hr {
 
 .quote {
 	font-style: italic;
-	font-size: 20px;
+	font-size: 22px;
 }
+
+.bodytext {
+	font-size: 18px;
+}
+
+.bodytext-plus {
+  font-size: 20px;
+}
+
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.next-page, .prev-page {
+	float: right;
+	font-size: 24px;
+	text-shadow: 2px 2px 4px black;
+	text-underline: none;
+}
+
+.prev-page {
+  float: left;
+}
+
 .attrib {
 	font-family: sans-serif;
 }
 
 .screenshot {
-  border: 1px solid gray;	
+  border: 1px solid gray; 	
   width: 400px; 
 }
 
@@ -73,6 +98,11 @@ hr {
       blue,
       #ffffff 4%
     );
+}
+
+a.nostyle {
+  color: inherit; 
+  text-decoration: inherit; 
 }
 
 /* util styles */
