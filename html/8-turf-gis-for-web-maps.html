@@ -13,7 +13,12 @@
      <div class="my-col-8"> 
        <a href="http://www.milemarker3.org/maps/turf/turf-gis-bay-to-breakers-map.html" target="_blank">
        <img src="../img/turf-analysis-proto-screenshot.jpg" class="screenshot" alt="Turf web gis analysis proto screenshot" title="Turf web gis analysis proto screenshot" /></a>
+      <p>&nbsp;</p>
+      <a href="https://www.mapbox.com/blog/playback-the-iditarod-with-turf/ " target="_blank">
+       <img src="../img/turf-iditarod-screenshot.jpg" class="screenshot" alt="Turf iditarod demo screenshot" title="Turf iditarod demo screenshot" /></a>       
      </div>
+
+
      <!-- Page Contents -->
      
      <div class="my-col-12">
@@ -25,16 +30,21 @@
         <h2>Technology at a Glance</h2>
         <ul>
           <li><span class="bodytext">
-          
+          Turf is a JavaScript library for spatial analysis. It is mothing short than GIS for web maps. It helps you analyze, aggregate, and transform data in order to visualize it in new ways and answer advanced questions about it.
           </span></li>
           
           <li><span class="bodytext">
-          </span></li>
-        
-          <li><span class="bodytext">
+          Any ArcToolbox tool you can name is very likely represented in the well-documented Turf API, which covers the majority of what GIS practitioners use in their daily work.<br />
+          <ul style="margin-top:8px;">
+            <li>Join methods use turf.within() to select points of interest located within a geographic area;</li>
+            <li>Measurement methods use turf.distance() to calculate a great circle distance on the Earth;</li>
+            <li>Classification methods use turf.jenks() to classify data according to the jenks algorithm.</li>
+          </ul>
           </span></li>
            
           <li><span class="bodytext">
+          Almost every function in Turf.js takes GeoJSON data as its input, and it performs all of its
+          geospatial analysis on the client-side, so there's no need for a server to perform fully-functioning Web GIS. 
           </span></li>
         </ul> 
 
